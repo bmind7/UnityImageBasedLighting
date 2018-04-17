@@ -25,9 +25,10 @@ namespace IkigaiGames.IBLDemo.Lighting
         // Needed to be sure we never have empty fields to avoid NullRef when using this data structure
         private void OnEnable()
         {
-            Ambient = new Texture2D(Resolution, Resolution, TextureFormat.RGBA32, false, false);
+            Ambient = new Texture2D(Resolution, Resolution);
             Diffuse = new Texture2D(Resolution, Resolution);
             Specular = new Texture2D(Resolution, Resolution);
+            // At this version on software only Combined texture are used
             Combined = new Texture2D(Resolution, Resolution, TextureFormat.RGBA32, true, false)
             {
                 wrapMode = TextureWrapMode.Clamp,

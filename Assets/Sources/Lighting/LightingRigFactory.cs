@@ -22,8 +22,6 @@ namespace IkigaiGames.IBLDemo.Lighting
         /// Bake light textures from provided lighting rig
         /// </summary>
         /// <param name="lightingRigPrefab"></param>
-        /// <returns>Return True in case of success</returns>
-
         public void BuildRig(LightingRig lightingRigPrefab)
         {
             if (lightingRigPrefab == null)

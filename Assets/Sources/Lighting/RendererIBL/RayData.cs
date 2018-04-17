@@ -1,12 +1,9 @@
-﻿
-
-using IkigaiGames.IBLDemo.Core;
-using IkigaiGames.IBLDemo.Lighting;
+﻿using IkigaiGames.IBLDemo.Lighting;
 using UnityEngine;
 
 namespace IkigaiGames.IBLDemo.RendererIBL
 {
-    public class RayData
+    public struct RayData
     {
         public Vector3 RayDirection;
         public LightingRig LightingRig;
