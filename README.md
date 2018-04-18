@@ -1,6 +1,6 @@
 # Unity Image Based Lighting
 
-This demo project is example code for my blog post about IBL "Link Soon"
+This demo project is example code for my blog post about IBL [Link to article](https://medium.com/@bmind/benefits-of-image-based-lighting-on-mobile-284cda30d6d8)
 
 Example of IBL lighting for low end mobile device, 
 which allow calculate complex lights(multiple directional light, 
